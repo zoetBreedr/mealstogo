@@ -2,6 +2,7 @@ import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 import { theme } from "./src/infrastructure/theme";
 import { RestaurantsScreen } from "./src/features/restaurants/screens/restaurants.screens";
 import { ThemeProvider } from "styled-components";
+import { Text } from "./src/components/typography/text.component";
 
 import {
   useFonts as useOswald,
